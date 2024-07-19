@@ -38,7 +38,7 @@ export default function TopMenu() {
     ];
 
     return (
-        <nav className="bg-gray-700 fixed p-4 top-0 w-full">
+        <nav className="bg-gray-700 sticky p-4 top-0">
             <BurgerMenuButton isOpen={isOpen} toggleMenu={toggleMenu} />
             <ul className={`${isOpen ? "flex" : "hidden"} md:flex flex-col items-center justify-center md:flex-row md:space-x-16`}>
                 {links.map((item, index) => 
