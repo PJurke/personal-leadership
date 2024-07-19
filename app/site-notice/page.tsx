@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 
 export default function SiteNotice() {
     return (
-        <section className="container min-h-dvh mx-auto py-8">
+        <section className="container min-h-dvh mx-auto px-4 md:px-0 py-8">
             <h1 className="text-3xl font-bold mb-4">Impressum</h1>
             <p>
                 Philip Jurke<br />
