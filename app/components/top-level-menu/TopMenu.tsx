@@ -30,7 +30,7 @@ export default function TopMenu() {
 
     // Links for the menu
     const links = [
-        { label: "Punkt A", href: "/" },
+        { label: "Startseite", href: "/" },
         { label: "Punkt B", href: "/" },
         { label: "Punkt C", href: "/" },
         { label: "Punkt D", href: "/" },
