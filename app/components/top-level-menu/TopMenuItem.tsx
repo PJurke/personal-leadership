@@ -8,7 +8,7 @@ interface TopMenuItemProps {
 export default function TopMenuItem({ href, label }: TopMenuItemProps) {
     return (
         <li>
-            <Link href={href}>
+            <Link className="text-white" href={href}>
                 {label}
             </Link>
         </li>

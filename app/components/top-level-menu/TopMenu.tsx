@@ -11,8 +11,8 @@ export default function TopMenu() {
     ];
 
     return (
-        <nav className="bg-orange-300 fixed p-4 top-0 w-full">
-            <ul className="flex flex-col items-center justify-center md:flex-row md:space-x-4">
+        <nav className="bg-gray-700 fixed p-4 top-0 w-full">
+            <ul className="flex flex-col items-center justify-center md:flex-row md:space-x-16">
                 {links.map((item, index) => 
                     <TopMenuItem key={index} href={item.href} label={item.label} />
                 )}
