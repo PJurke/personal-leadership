@@ -6,8 +6,13 @@ export const metadata: Metadata = {
 
 export default function SiteNotice() {
     return (
-        <section className="flex items-center justify-center h-screen">
-            <h1 className="font-light text-4xl">Impressum</h1>
+        <section className="container min-h-dvh mx-auto py-8">
+            <h1 className="text-3xl font-bold mb-4">Impressum</h1>
+            <p>
+                Philip Jurke<br />
+                ABC Str. 123<br />
+                01234 Leipzig<br />
+            </p>
         </section>
     );
 }
