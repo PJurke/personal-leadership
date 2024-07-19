@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
 
     const links = [
-        { label: "Element A", href: "/"},
+        { label: "Impressum", href: "/site-notice"},
         { label: "Element B", href: "/"},
         { label: "Element C", href: "/"},
     ];
